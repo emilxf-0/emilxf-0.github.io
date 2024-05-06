@@ -1,9 +1,14 @@
 - id: losing-my-marbles
   title: Losing My Marbles
-  img: "/src/img/LMM.png"
+  img: "./src/img/LMM.png"
   description: A marble game with a twist
   tags: ["C#", "Unity", "Game Development"]
   file: "_projects/losing-my-marbles.md"
 
-
+- id: the-forest
+  title: The Forest
+  img: "./src/img/forest.png"
+  description: A forest simulation
+  tags: ["C#", "Unity", "Game Development"]
+  file: "_projects/the-forest.md"
   
