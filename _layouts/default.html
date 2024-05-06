@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emil Forsén Game Development Portfolio</title>
+    <link href="./out/css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+</head>
+
+<body class="bg-slate-900 text-white">
+
+    <header class="bg-gray-900 text-white body-font shadow w-full">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <!-- Logo and Branding -->
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <span class="ml-3 text-xl">Emil Forsén Game Portfolio</span>
+            </a>
+            <!-- Navigation -->
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-400">Home</a>
+                <a class="mr-5 hover:text-gray-400">About</a>
+                <a class="mr-5 hover:text-gray-400">Projects</a>
+                <a class="mr-5 hover:text-gray-400">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- projects.html -->
+
+
+
+
+        <!-- Main content goes here -->
+        <section class="bg-slate-900 text-white py-20 px-4 sm:px-6 lg:px-8">
+           
+
+            <div class="max-w-7xl mx-auto">
+                <h1 class="text-4xl font-semibold">Hi, I'm Emil</h1>
+                <p class="text-xl mt-4">Marketing guy turned game developer. Based in Gothenburg. These are some of the
+                    projects I've been working on. </p>
+            </div>
+        </section>
+
+        <section class="bg-slate-900 text-white py-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto grid grid-cols-2 gap-4">
+                
+               
+                {% for project in site.data.projects %}
+                    {% include popout.html project=project %}
+                {% endfor %}
+
+                
+
+                <div x-data="{ open: false }">
+                    <div @click="open = true" class="card p-4 bg-white rounded-lg shadow-lg cursor-pointer">
+                        <!-- Card content -->
+                    </div>
+
+                    <div x-show="open" class="fixed inset-0 bg-black bg-opacity-50 z-10" @click="open = false"></div>
+
+                    <div x-show="open"
+                        class="fixed z-20 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 p-8 bg-white rounded-lg shadow-lg">
+                        <!-- Popout content here -->
+                        <button @click="open = false" class="absolute top-0 right-0 m-4">&times;</button>
+                    </div>
+                </div>
+
+
+                <div x-data="{open:false}">
+                    <div @click="open = true"
+                        class="group bg-[url('/src/img/LMM.png')] bg-cover transition ease-out duration-300 hover:scale-105">
+                        <div
+                            class="rounded-t-md bg-gradient-to-r from-cyan-500 to-blue-500 group-hover:bg-gradient-to-l bg-opacity-50 px-8 py-4">
+                            <h2 class="text-xl font-semibold">Beef System</h2>
+
+                            <p class="mt-2 text-xs uppercase font-bold">SDL2, C++, Master thesis</p>
+                        </div>
+                        <div
+                            class="text-black p-8 bg-blue-950 bg-opacity-60 transition ease-out duration-300 group-hover:bg-opacity-0 pb-48">
+                            <p>Party and bullshit</p>
+                        </div>
+                    </div>
+
+                    <!-- Popout Background -->
+                    <div x-show="open"
+                        class="transition-opacity ease-out duration-500 backdrop-blur-sm fixed inset-0 bg-black bg-opacity-50 z-10"
+                        @click="open = false" @click.away="open = false" x-transition:enter="ease-out duration-300"
+                        x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+                        x-transition:leave="ease-in duration-300" x-transition:leave-start="opacity-100"
+                        x-transition:leave-end="opacity-0"></div>
+
+                    <div x-show="open"
+                        class="fixed z-20 left-1/2 top-1/2 transform -translate-x-1/2 translate-y-1/2 w-1/2 bg-white text-black p-8"
+                        x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 scale-95"
+                        x-transition:enter-end="opacity-100 scale-100" x-transition:leave="ease-in duration-300"
+                        x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95">>
+                        <p>Party and bullshit</p>
+                    </div>
+                </div>
+
+                <div class="bg-cover bg-center bg-blue-500 bg-opacity-50 p-8">
+                    <h2 class="text-2xl font-semibold">Project 2</h2>
+                    <p class="mt-4">This
+                        is a description of the second project. It is a game that I developed and it is about...</p>
+                </div>
+                <div class="bg-cover bg-center bg-blue-500 bg-opacity-50 p-8">
+                    <h2 class="text-2xl font-semibold">Project 3</h2>
+                    <p class="mt-4">This
+                        is a description of the third project. It is a game that I developed and it is about...</p>
+                </div>
+                <div class="bg-cover bg-center bg-blue-500 bg-opacity-50 p-8">
+                    <h2 class="text-2xl font-semibold">Project 4</h2>
+                    <p class="mt-4">This
+                        is a description of the fourth project. It is a game that I developed and it is about...</p>
+                </div>
+                <div class="bg-cover bg-center bg-blue-500 bg-opacity-50 p-8">
+                    <h2 class="text-2xl font-semibold">Project 5</h2>
+                    <p class="mt-4">This
+                        is a description of the fifth project. It is a game that I developed and it is about...</p>
+                </div>
+                <div class="bg-cover bg-center bg-blue-500 bg-opacity-50 p-8">
+                    <h2 class="text-2xl font-semibold">Project 6</h2>
+                    <p class="mt-4">This
+                        is a description of the sixth project. It is a game that I developed and it is about...</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 shadow mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-gray-500 text-xs py-6">
+                © 2024 Emil Forsén Game Dev Portfolio. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
