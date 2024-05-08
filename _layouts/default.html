@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><a href="index.html">Emil Forsén Game Development Portfolio</a></title>
+    <title>Emil Forsén Game Development Portfolio</title>
     <link href="./out/css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -16,7 +16,7 @@
     <main>
         <!-- Main content goes here -->
         <section class=" text-white py-20 px-4 sm:px-6 lg:px-8">
-            <div class="h-10 max-w-7xl mx-auto">
+            <div class="h-10 max-w-7xl mx-auto my-auto">
                 <h1 class="text-4xl font-semibold">Hi, I'm Emil</h1>
                 <p class="text-xl mt-4">Marketing guy turned game developer. Based in Gothenburg. These are some of the
                     projects I've been working on. This website is under construction, please be patient. </p>
@@ -25,12 +25,12 @@
 
         <section class=" text-white py-20 px-4 sm:px-6 lg:px-8" x-data="{ filter: 'all' }">
             <!-- Filter buttons -->
-            <div class="mx-auto mb-10 max-w-7xl">
+            <div class="mx-auto my-10 max-w-7xl">
                 {% assign unique_tags = site.data.projects | map: 'tags' | flatten | uniq %}
-                <button class="bg-pink-300 hover:bg-pink-200 focus:bg-pink-800 hover:scale-105 p-4 my-4 text-slate-950 font-semibold"
+                <button class="bg-pink-300 hover:bg-pink-200 focus:bg-pink-800 hover:scale-105 p-2 md:p-4 my-4 text-slate-950 font-semibold"
                     @click="filter = 'all'">All</button>
                 {% for tag in unique_tags %}
-                <button class="bg-pink-300 hover:bg-pink-200 focus:bg-pink-800 hover:scale-105 p-4 my-4 text-slate-950 font-semibold"
+                <button class="bg-pink-300 hover:bg-pink-200 focus:bg-pink-800 hover:scale-105 p-2 md:p-4 my-4 text-slate-950 font-semibold"
                     @click="filter = '{{ tag }}'">{{ tag }}</button>
                 {% endfor %}
             </div>
