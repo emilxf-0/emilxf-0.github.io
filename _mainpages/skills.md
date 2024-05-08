@@ -45,6 +45,6 @@ Japanse (Trying my best)
 
 **Social**
 
-[Linkedin](linkedin.com/in/emil-forsen)
+[Linkedin](https://linkedin.com/in/emil-forsen)
 
 [Semble](https://semble.gg/profile/emilxf)
