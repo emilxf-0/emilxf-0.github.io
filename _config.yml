@@ -39,6 +39,8 @@ plugins:
 collections:
   projects:
     output: true
+  mainpages:
+    output: true
 
 # Exclude from processing.
 exclude:

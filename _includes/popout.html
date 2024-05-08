@@ -1,14 +1,15 @@
 <div x-data="{open:false}">
-    <div @click="open = true"
-        class="group bg-[url('{{project.img}}')] bg-cover transition ease-out duration-300 hover:scale-105">
+    <div @click="open = true" 
+        style="background-image: url('{{project.img}}');" class="group bg-cover rounded-t-md transition ease-out duration-300 hover:scale-105">
+        
         <div
-            class="rounded-t-md bg-gradient-to-r from-cyan-500 to-blue-500 group-hover:bg-gradient-to-l bg-opacity-50 px-8 py-4">
+            class="rounded-t-md bg-slate-900 group-hover:bg-gradient-to-r px-8 py-4">
             <h2 class="text-xl font-semibold">{{project.title}}</h2>
 
             <p class="mt-2 text-xs uppercase font-bold">{{project.tags}}</p>
         </div>
         <div
-            class="text-black p-8 bg-blue-950 bg-opacity-60 transition ease-out duration-300 group-hover:bg-opacity-0 pb-48">
+            class="p-8 bg-opacity-60 transition ease-out duration-300 group-hover:bg-opacity-0 pb-48">
         </div>
     </div>
 
@@ -36,7 +37,6 @@
 
         {% assign markdown_file = site.projects | where: "path", project.file | first %}
         <div class="prose overflow-y-auto">
-            {{project.img | inspect}}
             {{ markdown_file.content | markdownify }}
         </div>
     </div>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emil Forsén Game Development Portfolio</title>
+    <link href="./out/css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+{% include header.html %}
+
+<body class="bg-gradient-to-tr from-slate-950 to-slate-800 text-white">
+
+    
+    <section class=" text-white py-20 px-4 sm:px-6 lg:px-8">
+        <div class="top-10 bottom-10 py-20 bg-white grid grid-cols-1 md:grid-cols-3">
+            <div class="mx-auto mb-9 md:col-span-2">
+                {% assign markdown_file = site.mainpages | where: "path", "_mainpages/about.md" | first %}
+                <div class="prose">
+                    {{ markdown_file.content | markdownify }}
+                </div>
+            </div>
+            <div class="mx-auto col-span-1 bg-slate-200">
+                {% assign markdown_file = site.mainpages | where: "path", "_mainpages/skills.md" | first %}
+                <div class="prose px-5 py-9">
+                    {{ markdown_file.content | markdownify }}
+                </div>
+            </div>
+        </div>
+    </section>
+        {% include footer.html %}
+
+</body>

@@ -1,14 +1,20 @@
 - id: losing-my-marbles
   title: Losing My Marbles
-  img: "./src/img/LMM.png"
+  img: '/src/img/LMM.png'
   description: A marble game with a twist
   tags: ["C#", "Unity", "Game Development"]
   file: "_projects/losing-my-marbles.md"
 
-- id: the-forest
-  title: The Forest
-  img: "./src/img/forest.png"
+- id: beef-system
+  title: Beef System
+  img: "/src/img/beefsystem.png"
   description: A forest simulation
-  tags: ["C#", "Unity", "Game Development"]
-  file: "_projects/the-forest.md"
+  tags: ["C++", "SDL2", "Game Development"]
+  file: "_projects/beef-system.md"
   
+- id: flesh-and-stone
+  title: Flesh and Stone
+  img: "/src/img/LightAttackClip.gif"
+  description: A hack and slash game
+  tags: ["C++", "Unreal Engine", "Blueprints", "Game Development"]
+  file: "_projects/beef-system.md"
