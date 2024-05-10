@@ -1,14 +1,14 @@
 ---
-title: Flesh and Stone
+title: Get Up
 ---
 ## [Beef System (Master Thesis)](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System))
 
 # Flesh and Stone
  
-- **Developed:** 2023 March - May
-- **Library:** SDL2
-- **Language:** C++
-- **Genre:** Master Thesis
+- **Developed:** 2023 September - October
+- **Engine:** Unity
+- **Language:** C#
+- **Genre:** VR, Single player, Walking simulator
 
 ### Overview
 

@@ -1,6 +1,5 @@
 ---
 title: The Beef System
-id: _projects/the-forest.md
 ---
 [Beef System Repo](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System)
 
