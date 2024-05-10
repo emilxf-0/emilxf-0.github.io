@@ -12,22 +12,23 @@ title: Get Up
 
 ### Overview
 
-Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God of War. We wanted to do something that had the same speedy feel like Doom but that heavily incorporates melee combat. 
+Get up is a VR walking sim set at the bottom of a pit. The goal is simply to walk to the top by balancing on some preeety sketchy-looking boards. 
 
 ### My contribution
 
-**Combat system** 
-
-I was responsible for making combat feel crunchy, impactful and intuitive. That meant setting up key bindings and blue prints that handled both singular attacks and combos. I worked extensively with timing and to gracefully add interactivity to the animations made by the animator. 
+**Vertical movement and foot tracking**
+We wanted to explore spatial movement and the challenges of mitigating motion sickness due to the disconnect between perceived and physical movement. To do that we had to find a way for the player to move around in a limited space but still get the benefits of a relatively large game world. By letting the player move in a spiral motion we could keep the need for space to a minimum. VR doesn't play very nicely with collision since there is no way to stop the player from just moving indefinitely (barring physically restricting them, thankfully there are laws in place to stop of us from doing that) which usually means the world gets offset and mess up the placement of the game world. 
 
 ### Team: 
 **Programmers**  
 
 Me  
-[Max Petersson](https://github.com/Max-Petersson) 
-[Ajdin Talic](https://github.com/MagmarRager)
+[Adam Hjelm](https://github.com/Adam-Hjelm) 
+[Henrik Nyström](https://github.com/sweviceroy) 
 
 **Artists**
+[Alvin Alvrud](https://www.artstation.com/alvrudart)
+[Sandra Tollefsen](https://www.artstation.com/sandratollefsen)
 [Tom Hammar](https://www.artstation.com/tomhammar)
-[Jon Cho](https://www.artstation.com/joncho3)
-[Emil Carlsson](https://www.artstation.com/emilcarlsson)
+
+
