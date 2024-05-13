@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         //set papyrus as a font option
-          'sans': ['Inter', 'Papyrus', 'sans-serif']
+          'sans': ['Inter', 'Helvetica', 'sans-serif']
       }
   },
 },
