@@ -1,4 +1,4 @@
-<div x-data="{open:false}">
+<div x-data="{open:false}" x-cloak>
     <div @click="open = true" 
         class="group bg-cover rounded-md transition ease-out duration-300 hover:scale-105">
         
@@ -27,7 +27,7 @@
         x-transition:leave-end="opacity-0"> 
     </div>
    
-    <div x-show="open"
+    <div x-show="open" x-cloak
         class="rounded-lg fixed top-10 bottom-10 z-20 left-1/2 transform -translate-x-1/2 w-full md:w-1/2 overflow-y-auto max-h-svh bg-white p-8"
         x-transition:enter="ease-out duration-300" 
         x-transition:enter-start="opacity-0 scale-95"
