@@ -1,9 +1,8 @@
 ---
 title: Get Up
 ---
-## [Beef System (Master Thesis)](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System))
 
-# Flesh and Stone
+# Get Up
  
 - **Developed:** 2023 September - October
 - **Engine:** Unity

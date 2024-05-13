@@ -1,12 +1,12 @@
 - id: losing-my-marbles
   title: Losing My Marbles
-  img: '/src/img/LMM.png'
+  img: '/src/img/losing-my-marbles.webp'
   tags: ["C# ", "Unity ", "Game Development "]
   file: "_projects/losing-my-marbles.md"
 
 - id: beef-system
   title: Beef System
-  img: "/src/img/beefsystem.png"
+  img: "/src/img/beef-system.webp"
   tags: ["C++ ", "SDL2 ", "Game Development "]
   file: "_projects/beef-system.md"
   
@@ -18,6 +18,6 @@
 
 - id: get-up
   title: Get Up
-  img: "/src/img/getup.png"
+  img: "/src/img/getup.webp"
   tags: ["C# ", "Unity ", "Game Development ", "VR "]
   file: "_projects/get-up.md"

@@ -1,16 +1,19 @@
 <div x-data="{open:false}">
     <div @click="open = true" 
-        style="background-image: url('{{project.img}}');" class="group bg-cover rounded-t-md transition ease-out duration-300 hover:scale-105">
+        class="group bg-cover rounded-md transition ease-out duration-300 hover:scale-105">
         
-        <div
-            class="rounded-t-md bg-zinc-950 group-hover:bg-gradient-to-r from-zinc-950 to-zinc-900 px-8 py-4">
-            <h2 class="text-xl font-semibold">{{project.title}}</h2>
+            <div
+                class="rounded-t-md bg-[url('{{project.img}}')] bg-center bg-cover md:bg-zinc-950! md:group-hover:bg-gradient-to-r from-zinc-950 to-zinc-900">
+                <div class="rounded-t-md bg-opacity-30 bg-black bg-cover md:bg-opacity-100 px-8 py-4">
+                    <h2 class="text-lg md:text-xl font-semibold">{{project.title}}</h2>
+                    <p class="mt-2 text-xs uppercase font-bold">{{project.tags}}</p>
 
-            <p class="mt-2 text-xs uppercase font-bold">{{project.tags}}</p>
-        </div>
-        <div
-            class="p-8 bg-opacity-60 transition ease-out duration-300 group-hover:bg-opacity-0 pb-48">
-        </div>
+                </div>
+    
+            </div>
+            
+            <img class="rounded-b-md hidden md:block aspect-video" src="{{project.img}}" alt="{{project.img}}">    
+    
     </div>
 
     <!-- Popout Background -->
