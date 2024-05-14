@@ -8,7 +8,7 @@ title: The Beef System
 - **Developed:** 2023 October - Ongoing
 - **Library:** SDL2
 - **Language:** C++
-- **Genre:** Master Thesis
+- **Genre:** Examination Project
 
 ### Overview
 The Beef System is a spin on the Nemesis system, made famous by Shadows of Mordor. As the name implies it's not so much a game as it is a system for emergent narrative. With that said, I wanted a setting that felt thematic so it takes place in the most infuriating of places: traffic. 

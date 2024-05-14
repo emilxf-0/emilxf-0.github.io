@@ -1518,6 +1518,10 @@ video {
   padding-bottom: 2.25rem;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -1719,16 +1723,12 @@ video {
     grid-column: span 4 / span 4;
   }
 
-  .md\:mb-28 {
-    margin-bottom: 7rem;
+  .md\:mb-20 {
+    margin-bottom: 5rem;
   }
 
   .md\:mt-20 {
     margin-top: 5rem;
-  }
-
-  .md\:mb-20 {
-    margin-bottom: 5rem;
   }
 
   .md\:block {
@@ -1741,14 +1741,6 @@ video {
 
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:w-full {
-    width: 100%;
-  }
-
-  .md\:w-28 {
-    width: 7rem;
   }
 
   .md\:w-48 {
