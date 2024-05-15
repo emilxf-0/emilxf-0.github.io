@@ -11,6 +11,13 @@ experience from the international start-up scene. I m currently in my second yea
 studying game programming at Yrgo.
 
 ### Experience
+**Programming internship**
+
+ACE - A Creative Endeavour
+_2023 - 2024, 7 months Gothenburg_
+
+During my internship I got the opportunity to work with a project from the exploratory phase and all the way to production. I learned how to navigate the code base and was fortunate enough to be allowed to do work in every single facet of the game, not just programming but also visual effects, shaders and UI design. 
+
 **CMO** 
 
 KLASH

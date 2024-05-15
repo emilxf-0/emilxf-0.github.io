@@ -12,7 +12,7 @@
   
 - id: flesh-and-stone
   title: Flesh and Stone
-  img: "/src/img/LightAttackClip.gif"
+  img: "/src/img/light-attack-clip.gif"
   tags: ["Unreal Engine ", "Blueprints ", "Game Development "]
   file: "_projects/flesh-and-stone.md"
 

@@ -13,6 +13,7 @@ title: Losing My Marbles
 - **Networking:** Firebase
 - **Genre:** Couch co-op, Party game, Tactical puzzle
 
+
 ## Overview
 
 Losing my marbles is a semi online, couch co-op game inspired by classic board game RoboRally [RoboRally](https://boardgamegeek.com/boardgame/18/roborally target="blank") and party game favorite [Jackbox](https://www.jackboxgames.com/). We created a 2D puzzle/race game as a 7-week project at [Yrgo](https://www.yrgo.se).
@@ -25,7 +26,6 @@ The goal of the game is to collect three golden marbles before your opponents. E
 
 ![[Losing my marbles gameplay]](../src/img/losing-my-marbles-turn-2.gif)
 
-
 ## Challenges
 
 We really wanted to lean into the hidden selection and programming game mechanics of RoboRally and made the decision to use mobile phones as controllers fairly early in the process. This was a gamble since none of us had worked with any kind of networking before. We decided to give it a week to find out if we could at least send a string of text from a single phone to the game. We opted to use Firebase as it's pretty entry level and well documented. This really helped me wrap my head around how to push and pull data in a structured and logical way.
@@ -34,7 +34,7 @@ We really wanted to lean into the hidden selection and programming game mechanic
 
 **Networking**
 
-I was responsible for making networking work. That meant setting up a database that Unity could talk to, create a lobby to ensure that we could run more than one game at a time, and creating a separate build for the game controllers.  
+I was responsible for making networking work. That meant setting up a database that Unity could talk to, create a lobby to ensure that we could run more than one game at a time, and creating a separate build for the game controllers.
 
 **UI**
 

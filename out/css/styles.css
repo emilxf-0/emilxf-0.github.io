@@ -1438,6 +1438,10 @@ video {
   background-image: url('/src/img/losing-my-marbles.webp');
 }
 
+.bg-\[url\(\'\/src\/img\/light-attack-clip\.gif\'\)\] {
+  background-image: url('/src/img/light-attack-clip.gif');
+}
+
 .from-slate-950 {
   --tw-gradient-from: #020617 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(2 6 23 / 0) var(--tw-gradient-to-position);
@@ -1537,11 +1541,6 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .text-lg {
