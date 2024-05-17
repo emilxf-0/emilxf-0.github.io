@@ -1267,6 +1267,10 @@ video {
   height: auto;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .max-h-svh {
   max-height: 100svh;
 }
@@ -1324,6 +1328,10 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .grid-cols-8 {
   grid-template-columns: repeat(8, minmax(0, 1fr));
 }
@@ -1344,12 +1352,20 @@ video {
   justify-content: center;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
 
 .overflow-y-auto {
   overflow-y: auto;
+}
+
+.text-wrap {
+  text-wrap: wrap;
 }
 
 .text-pretty {
@@ -1414,18 +1430,6 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\{\{project\.img\}\}\'\)\] {
-  background-image: url('{{project.img}}');
-}
-
-.bg-gradient-to-tr {
-  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\/src\/img\/LightAttackClip\.gif\'\)\] {
-  background-image: url('/src/img/LightAttackClip.gif');
-}
-
 .bg-\[url\(\'\/src\/img\/beef-system\.webp\'\)\] {
   background-image: url('/src/img/beef-system.webp');
 }
@@ -1434,12 +1438,24 @@ video {
   background-image: url('/src/img/getup.webp');
 }
 
+.bg-\[url\(\'\/src\/img\/light-attack-clip\.gif\'\)\] {
+  background-image: url('/src/img/light-attack-clip.gif');
+}
+
 .bg-\[url\(\'\/src\/img\/losing-my-marbles\.webp\'\)\] {
   background-image: url('/src/img/losing-my-marbles.webp');
 }
 
-.bg-\[url\(\'\/src\/img\/light-attack-clip\.gif\'\)\] {
-  background-image: url('/src/img/light-attack-clip.gif');
+.bg-\[url\(\'\/src\/img\/super-hero-diy-cover\.webp\'\)\] {
+  background-image: url('/src/img/super-hero-diy-cover.webp');
+}
+
+.bg-\[url\(\'\{\{project\.img\}\}\'\)\] {
+  background-image: url('{{project.img}}');
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
 .from-slate-950 {
@@ -1782,3 +1798,4 @@ video {
     padding-right: 2rem;
   }
 }
+

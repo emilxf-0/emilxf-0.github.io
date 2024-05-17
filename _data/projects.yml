@@ -1,3 +1,9 @@
+- id: super-hero-diy
+  title: Super Hero DIY
+  img: '/src/img/super-hero-diy-cover.webp'
+  tags: ["C# ", "Unity ", "Game Development "]
+  file: "_projects/super-hero-diy.md"
+
 - id: losing-my-marbles
   title: Losing My Marbles
   img: '/src/img/losing-my-marbles.webp'

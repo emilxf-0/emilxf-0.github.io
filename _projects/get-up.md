@@ -15,7 +15,10 @@ Get up is a VR walking sim set at the bottom of a pit. The goal is simply to wal
 
 ### Gameplay Video
 
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/Zkv-umJfA5c?si=lj5IrgRyK1tbwDFu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="aspect-ratio">
+<iframe class ="w-full h-full" width="560" height="315"  src="https://www.youtube.com/embed/Zkv-umJfA5c?si=lj5IrgRyK1tbwDFu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 
 ### My contribution
 

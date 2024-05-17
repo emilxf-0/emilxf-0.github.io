@@ -38,9 +38,12 @@
 
         <button @click="open = false" class="absolute top-0 right-0 m-4 text-slate-900">&times;</button>
 
-        {% assign markdown_file = site.projects | where: "path", project.file | first %}
+        <div class="flex justify-center">
+
+            {% assign markdown_file = site.projects | where: "path", project.file | first %}
         <div class="prose overflow-y-auto">
             {{ markdown_file.content | markdownify }}
+        </div>
         </div>
     </div>
 </div>
