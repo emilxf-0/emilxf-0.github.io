@@ -9,6 +9,10 @@ title: Flesh and Stone
 - **Language:** Blueprints
 - **Genre:** Hack n slash
 
+<button class="prose prose-a:text-white prose-a:no-underline prose-a:font-semibold bg-zinc-900 hover:scale-105 p-2 md:p-4 my-4  font-semibold">
+<a href="https://github.com/Max-Petersson/Gravel" target="_">Check out the full Repo</a>
+</button>
+
 ### Overview
 
 Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God of War. We wanted to do something that had the same speedy feel as Doom but that heavily incorporates melee combat. Obviously, we didn't manage to do quite that in a six week project... but nevertheless we created something that I'm really proud of and that taught me a lot about how to structure work and how a well put together team can work wonders during a very short period of time.
