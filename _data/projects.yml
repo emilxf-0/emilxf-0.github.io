@@ -1,29 +1,35 @@
-- id: super-hero-diy
-  title: Super Hero DIY
-  img: '/src/img/super-hero-diy-cover.webp'
-  tags: ["C# ", "Unity ", "Game Development "]
-  file: "_projects/super-hero-diy.md"
-
-- id: losing-my-marbles
-  title: Losing My Marbles
-  img: '/src/img/losing-my-marbles.webp'
-  tags: ["C# ", "Unity ", "Game Development "]
-  file: "_projects/losing-my-marbles.md"
+- id: getajob
+  title: Get A Job
+  img: '/src/img/getajob.webp'
+  tags: ["Tailwind ", "Alpine.js ", "Web Development ", "Jekkyl "]
+  file: "_projects/get-a-job.md"
 
 - id: beef-system
   title: Beef System
   img: "/src/img/beef-system.webp"
   tags: ["C++ ", "SDL2 ", "Game Development "]
   file: "_projects/beef-system.md"
-  
-- id: flesh-and-stone
-  title: Flesh and Stone
-  img: "/src/img/light-attack-clip.gif"
-  tags: ["Unreal Engine ", "Blueprints ", "Game Development "]
-  file: "_projects/flesh-and-stone.md"
+
+- id: super-hero-diy
+  title: Super Hero DIY
+  img: '/src/img/super-hero-diy-cover.webp'
+  tags: ["C# ", "Unity ", "Game Development "]
+  file: "_projects/super-hero-diy.md"
 
 - id: get-up
   title: Get Up
   img: "/src/img/getup.webp"
   tags: ["C# ", "Unity ", "Game Development ", "VR "]
   file: "_projects/get-up.md"
+  
+- id: losing-my-marbles
+  title: Losing My Marbles
+  img: '/src/img/losing-my-marbles.webp'
+  tags: ["C# ", "Unity ", "Game Development "]
+  file: "_projects/losing-my-marbles.md"
+  
+- id: flesh-and-stone
+  title: Flesh and Stone
+  img: "/src/img/light-attack-clip.gif"
+  tags: ["Unreal Engine ", "Blueprints ", "Game Development "]
+  file: "_projects/flesh-and-stone.md"
