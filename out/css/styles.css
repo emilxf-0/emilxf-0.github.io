@@ -1336,6 +1336,10 @@ video {
   grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1447,6 +1451,10 @@ video {
   background-image: url('/src/img/beef-system.webp');
 }
 
+.bg-\[url\(\'\/src\/img\/getajob\.webp\'\)\] {
+  background-image: url('/src/img/getajob.webp');
+}
+
 .bg-\[url\(\'\/src\/img\/getup\.webp\'\)\] {
   background-image: url('/src/img/getup.webp');
 }
@@ -1497,10 +1505,6 @@ video {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .p-8 {

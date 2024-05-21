@@ -2,7 +2,7 @@
 title: Losing My Marbles
 ---
 
-![[Losing my marbles title.png]](../src/img/LMM.png)
+![[Losing my marbles title.png]](../src/img/losing-my-marbles.webp)
  
 # Losing My Marbles
 

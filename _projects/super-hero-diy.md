@@ -4,7 +4,6 @@ title: Superhero DIY
 
 # Superhero DIY
  
-
 - **My role:** Intern/Programmer 
 - **Studio:** ACE
 - **Developed:** 2023 November - 2024 May
@@ -14,13 +13,13 @@ title: Superhero DIY
 
 ### Overview
 
-Superhero DIY is a idle/midcore game developed by ACE
+Superhero DIY is a idle/midcore game developed by ACE in Gothenburg. I was in the very fortunate position to be ablo to contribute in every level of game development. I joined the team shortly after they've left the prototyping stage and could start in a well defined and up and running project. 
 
 ### My contribution
 
 **Spinhandler**
 
-I was in the very fortunate position to be ablo to contribute in every level of game development. I joined the team shortly after they've left the prototyping stage and could start in a well defined and up and running project. The first thing I got to work on was to add a spin effect to the character creation screen. It was a good starting point to familiarize myself with the code base and work on something that touched many different parts of the code without running the risk of actually breaking something. It's not mind blowing code in any way, but it was a good reminder that not all code have to be big brain, over engineered and ego stroking. Sometimes all you need is a simple if else check in the update function.
+The first thing I got to work on was to add a spin effect to the character creation screen. It was a good starting point to familiarize myself with the code base and work on something that touched many different parts of the code without running the risk of actually breaking something. It's not mind blowing code in any way, but it was a good reminder that not all code have to be big brain, over engineered and ego stroking. Sometimes all you need is a simple if else check in the update function.
 
 <div class="grid grid-cols-3 gap-1">
     <img class="col-span-1" src="/src/img/superhero-diy-1.gif">
@@ -108,9 +107,22 @@ I was in the very fortunate position to be ablo to contribute in every level of 
 
 **VFX**
 
+I've always liked the visual aspect of game development and I got the opportunity to work with both animations and VFX during this project. The VFX part was particularily interesting as I had to create my own textures and shaders in shadergraph (really chomping at the bit to get into some hlsl programming though). 
+
+<div class="grid grid-cols-3 grid-rows-3 gap-1">
+    <img class="col-span-1" src="/src/img/gif/fireaura.gif">
+    <img class="col-span-1" src="/src/img/gif/iceaura.gif">
+    <img class="col-span-1" src="/src/img/gif/lightningaura.gif">
+    
+    <img class="col-span-1" src="/src/img/gif/mutantaura.gif">
+    <img class="col-span-1" src="/src/img/gif/plantaura.gif">
+    <img class="col-span-1" src="/src/img/gif/strengthaura.gif">
+
+    <img class="col-span-1" src="/src/img/gif/wateraura.gif">
+    <img class="col-span-1" src="/src/img/gif/windaura.gif">
 
 
-
+</div>
 
 ### Team: 
 
