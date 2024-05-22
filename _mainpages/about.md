@@ -7,7 +7,7 @@ id: about
 ## About me
 
 I'm a full-stack marketing professional turned game developer with 5+ years
-experience from the international start-up scene. I m currently in my second year
+experience from the international start-up scene. I'm currently in my second year
 studying game programming at Yrgo.
 
 ### Experience
@@ -26,7 +26,7 @@ _2022 - 2023, 1 year Gothenburg_
 Responsible for both operative and strategic activities for the marketing department
 at KLASH.
 
-- Set up a full marketing funnel including promotions and onboardinF
+- Set up a full marketing funnel including promotions and onboarding
 - Grew social media presence with 1800 %.
 
 **Head of Marketing**
