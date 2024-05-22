@@ -17,8 +17,8 @@ id: skills
 **Tools & Technologies**
 
 Rider, Visual Studio, Github,
-Figma, Miro, Asana, Monday, Trello, Obsidian, Notion,
-Slack, Discord, Excel
+Figma, Krita, Miro, Asana, Monday, Trello, Obsidian, Notion,
+Slack, Discord, Excel, VIM 
 
 **Project Management**
 - Agile
@@ -43,7 +43,7 @@ English (professional)
 
 *In the pipeline*
 
-Japanse (Trying my best)
+Japanese (Trying my best)
 
 **Social**
 
