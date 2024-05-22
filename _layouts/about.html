@@ -2,16 +2,23 @@
 <html lang="en">
 
 <head>
-   {% include head.html %}
+    {% include head.html %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="/src/js/downloadpdf.js"></script>
 </head>
 
 {% include header.html %}
 
 <body class="bg-gradient-to-tr from-slate-950 to-slate-800 text-white">
 
-    
+
     <section class=" text-white mx-0 py-20 sm:px-6 lg:px-8">
-        <div class="mx-auto top-10 bottom-10 py-20 bg-white grid grid-cols-1 md:grid-cols-3">
+        <div>
+            <button id="downloadpdf" class="text-slate-950 bg-pink-300 p-2 text-pretty font-semibold mb-2">Download as PDF</button>
+        </div>
+        <div id="cv-section" class="mx-auto top-10 bottom-10 py-20 bg-white grid grid-cols-1 md:grid-cols-3">
             <div class="mb-9 md:col-span-2">
                 {% assign markdown_file = site.mainpages | where: "path", "_mainpages/about.md" | first %}
                 <div class="mx-auto prose px-5">
@@ -26,6 +33,6 @@
             </div>
         </div>
     </section>
-        {% include footer.html %}
+    {% include footer.html %}
 
 </body>

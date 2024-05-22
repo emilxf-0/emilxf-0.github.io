@@ -29,6 +29,7 @@ Slack, Discord, Excel, VIM
 
 - UX research 
 - User testing
+<div class="break-after"></div>
 - Information architecture
 - Prototyping 
 - Copywriting 
