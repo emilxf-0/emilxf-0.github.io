@@ -1,5 +1,5 @@
 ---
-title:
+title: Get a job
 ---
 
 # Get a job - Portfolio template for game developers 

@@ -29,6 +29,7 @@ at KLASH.
 - Set up a full marketing funnel including promotions and onboarding
 - Grew social media presence with 1800 %.
 
+<div style="break-before">
 **Head of Marketing**
 
 Zimpler

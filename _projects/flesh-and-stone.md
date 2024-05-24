@@ -10,7 +10,7 @@ title: Flesh and Stone
 - **Genre:** Hack n slash
 
 <button class="prose prose-a:text-white prose-a:no-underline prose-a:font-semibold bg-zinc-900 hover:scale-105 p-2 md:p-4 my-4  font-semibold">
-<a href="https://github.com/Max-Petersson/Gravel" target="_">Check out the full Repo</a>
+<a href="https://github.com/Max-Petersson/Gravel" target="_"> Check out the full Repo</a>
 </button>
 
 ### Overview
