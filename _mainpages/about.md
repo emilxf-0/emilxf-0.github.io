@@ -7,8 +7,9 @@ id: about
 ## About me
 
 I'm a full-stack marketing professional turned game developer with 5+ years
-experience from the international start-up scene. I'm currently in my second year
-studying game programming at Yrgo.
+experience from the international start-up scene. I have a passion for development 
+and a strong background in marketing. I'm always looking for new challenges and 
+opportunities to learn and grow.
 
 ### Experience
 **Programming internship**
@@ -29,7 +30,8 @@ at KLASH.
 - Set up a full marketing funnel including promotions and onboarding
 - Grew social media presence with 1800 %.
 
-<div style="break-before">
+<div style="break-before"></div>
+
 **Head of Marketing**
 
 Zimpler
@@ -45,16 +47,18 @@ at Zimpler.
 
 Zimpler
 _Aug 2012 - jul 2013 - 1 year, Gothenburg/Stockholm_
-Re-vamped the Zimpler brand.`
 
-- Workshops for finding the brand valueW
+Re-vamped the Zimpler brand.
+
+- Workshops for finding the brand values
 - Re built the website
 - Created tonality and design guidelines
 
 ### Education
 
-**Game Creator Programmer** Yrgo 2022 - 2024, Gothenburg
+**Game Creator Programmer** 
+_Yrgo 2022 - 2024, Gothenburg_
 
-Copywriter
-Forsbergs
-2007 - 2009, Stockholm
+**Copywriter**
+_Forsbergs
+2007 - 2009, Stockholm_

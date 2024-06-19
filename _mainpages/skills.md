@@ -18,7 +18,8 @@ id: skills
 
 Rider, Visual Studio, Github,
 Figma, Krita, Miro, Asana, Monday, Trello, Obsidian, Notion,
-Slack, Discord, Excel, VIM 
+Slack, Discord, Excel, VIM Motions, VSCode, Git, Jekyll, Markdown, Github Pages, 
+NPM, Tailwind CSS, HTML, CSS, React
 
 **Project Management**
 - Agile
@@ -32,7 +33,9 @@ Slack, Discord, Excel, VIM
 <div class="break-after"></div>
 - Information architecture
 - Prototyping 
-- Copywriting 
+- Copywriting
+- Content creation
+- Marketing
 - UX writing 
 - A/B testing
 
