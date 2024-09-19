@@ -47,7 +47,7 @@ English (professional)
 
 *In the pipeline*
 
-Japanese (Trying my best)
+Spanish (Trying my best)
 
 **Social**
 
