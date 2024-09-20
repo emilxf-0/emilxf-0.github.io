@@ -8,7 +8,7 @@ id: about
 
 **TL;DR** I'm a full-stack marketing professional turned game developer with 5+ years
 experience from the international start-up scene. I love games and game development 
-and have a preeeeetty strong background in marketing. Currently job hunting because the economy.  
+and have a preeeeetty strong background in marketing.  
 
 👇 *More business-y, word salad-y version below* 👇 
 
