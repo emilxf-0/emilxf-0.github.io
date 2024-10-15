@@ -1,100 +1,72 @@
 ---
 id: about
 ---
+## Emil Forsén
 
-# CV Emil Forsén
-
-## About me
-
-**TL;DR** I'm a full-stack marketing professional turned game developer with 5+ years
-experience from the international start-up scene. I love games and game development 
-and have a preeeeetty strong background in marketing.  
-
-👇 *More business-y, word salad-y version below* 👇 
-
-I’m a versatile professional with experience in game development, project management, and digital marketing. My career has spanned technical, creative, and business roles, allowing me to thrive in cross-functional environments. I’m energized by dynamic settings where collaboration, communication, and problem-solving come together to create real impact.
-
-### Marketer
-
-I started in marketing, building full-funnel strategies, branding guidelines, and leading cross-channel campaigns. I’m hands-on and have worked on everything from high-level strategy to designing onboarding materials. At Klash, I decentralized marketing to improve efficiency, and at Zimpler, I led the team through growth and change. My experience covers copywriting, CRM, email marketing, UX, and website development. I love storytelling, whether through games or marketing, and crafting strategies that connect with people.
-
-### Project Manager
-
-As a producer and project manager, I focus on collaboration and clear communication, helping teams move forward smoothly. I believe in removing obstacles and empowering teams to work independently while ensuring everyone is aligned. I’ve led agile teams in high-pressure environments, balancing ambition with tight deadlines while keeping a healthy work culture. Tools like Jira, Asana, and Trello help me keep projects organized and teams connected.
-
-### Developer
-
-I’m passionate about creating immersive game experiences. My development journey has taken me through Unity, Unreal, Monogame, and SDL2, building both mobile and desktop games. During my time at Yrgo and my internship at ACE, I contributed to a soft launch, working on code, VFX, and animations. I’m always looking to grow as a developer, exploring new tools and pushing my skills further.
-
-### Why Me?
-
-I’m a lifelong learner and a generalist who thrives in new environments. Whether building games, managing projects, or leading marketing efforts, I focus on making a meaningful impact. I believe that with the right process and collaboration, even small teams can achieve amazing results.
-
+**Game Developer &#124; Marketer &#124; Project Leader**
 
 ### Experience
-<div style="break-before"></div>
-**Programming internship**
+#### Chief Marketing Officer (CMO), KLASH
+Aug 2022–Aug 2023 | Gothenburg, Sweden
+- Managed both strategic and operative marketing activities, increasing social media presence by 1800% through targeted campaigns and audience engagement.
+- Secured funding for product growth, enabling the expansion of marketing initiatives and business development.
+- Developed a dedicated onboarding website for free-tier clients, streamlining the customer experience and driving further user engagement.
 
-ACE - A Creative Endeavour
-_2023 - 2024, 7 months Gothenburg_
+#### Game Programmer (Internship), A Creative Endeavor AB
+Nov 2023–May 2024 | Gothenburg, Sweden
+- Contributed to a major game project from the exploratory phase to full production, handling programming, visual effects, shaders, and UI design.
+- Delivered creative solutions for gameplay mechanics, collaborating closely with cross-disciplinary teams to ensure high-quality outputs.
 
-During my internship I got the opportunity to work with a project from the exploratory phase and all the way to production. I learned how to navigate the code base and was fortunate enough to be allowed to do work in every single facet of the game, not just programming but also visual effects, shaders and UI design. 
+#### Head of Marketing, Zimpler
+Aug 2018–Aug 2021 | Gothenburg/Stockholm
+- Built the marketing department from scratch, leading both strategic and operational efforts that resulted in a significant increase in customer base within two years.
+- Led the marketing team through multiple strategic pivots, adapting the company’s positioning to new market conditions while maintaining growth.
+- Established an onboarding process for merchants and users, improving user retention and simplifying product integration.
+- Improved the hiring process and expanded the marketing team to four members, ensuring the right talent was in place to drive long-term success.
 
-**CMO** 
+#### Brand & Content Manager, Zimpler
+Aug 2012–Jul 2013 | Gothenburg/Stockholm
+- Led workshops that defined Zimpler’s core brand values, setting the stage for long-term growth.
+- Rebuilt the company’s website to reflect updated brand guidelines, increasing traffic by 30-40%.
+- Created comprehensive design and tonality guidelines, ensuring consistency across all marketing channels.
 
-KLASH
-_2022 - 2023, 1 year Gothenburg_
+#### Email Marketing Manager, SEB
+Sep 2011–Sep 2016 | Stockholm, Sweden
+- Implemented a new email service provider from scratch, including building dynamic templates and establishing A/B testing protocols that increased open rates by 30%.
+- Optimized email campaigns through data analysis, driving a 25% increase in conversion rates across key product offerings.
+- Worked cross-departmentally to ensure all campaigns were aligned with broader marketing objectives and brand strategies.
 
-Responsible for both operative and strategic activities for the marketing department
-at KLASH.
+### Skills
 
-- Set up a full marketing funnel including promotions and onboarding
-- Grew social media presence with 1800 %.
+#### Game Development
+- Unity: Developed complete gameplay systems, physics, and visual effects for mobile and desktop games.
+- Unreal Engine: Created engaging 3D experiences, focusing on combat animation and game feel.
 
+#### Programming
+- C#, C++, HTML, CSS, Tailwind, Javascript
+- UI Design: Built intuitive, player-friendly user interfaces in Unity, enhancing user experience and engagement.
 
-**Head of Marketing**
+#### Marketing & Growth
+- SEO & Digital Strategy: Grew organic traffic to exceed industry benchmarks through targeted SEO efforts and content marketing campaigns.
+- Funnel Optimization: Created marketing funnels that increased conversion rates by 25%, focusing on retention and upsell opportunities.
+- Copywriting & Brand Development: Developed content strategies that significantly boosted brand recognition and engagement.
 
-Zimpler
-_Aug 2018 - Aug 2021 - 3 years, Gothenburg/Stockholm_
+#### Leadership & Project Management
+- Agile Project Management: Led teams in both game development and marketing projects, consistently delivering on time and within budget.
+- Team Leadership: Managed cross-functional teams of developers, designers, and marketers to achieve high-impact goals.
+- Strategic Planning: Developed long-term strategies that aligned product, marketing, and operational efforts to drive growth.
 
-Responsible for both operative and strategic activities for the marketing department
-at Zimpler.
+### Notable Projects
 
-- Built up the marketing department at Zimpler from scratch
-- Project management 
-
-**Brand and content manager**
-
-Zimpler
-_Aug 2012 - jul 2013 - 1 year, Gothenburg/Stockholm_
-
-Re-vamped the Zimpler brand.
-
-- Workshops for finding the brand values
-- Re built the website
-- Created tonality and design guidelines
-
-**Email Marketing Manager**
-SEB
-
-_2011 - 2016, Stockholm_
-
-- Implemented a new email service provider from scratch, building email templates, follow up on campaigns, A/B testing and optimization. 
+#### Zimpler Rebranding (2012–2013)
+- Spearheaded Zimpler’s brand overhaul, from conceptual workshops to the implementation of new design guidelines, resulting in a 40% increase in web traffic and improved user engagement.
 
 ### Education
 
-**Game Creator Programmer** 
-_Yrgo 2022 - 2024, Gothenburg_
+#### Game Creator Programmer
+Yrgo, Higher vocational studies, Gothenburg, 2022-2024
+- Specialization in game programming and visual effects, with a focus on mobile and desktop game development.
 
-**Online Digital Marketing**
-_Hyper Island, 2019_
-
-**Copywriter**
-_Forsbergs
-2007 - 2009, Stockholm_
-
-**Alternative Media and Radical Communication**
-_Södertörn University, 2010-2011_
-
-**Economic history**
-_University of Stockholm, 2009-2010_
+#### Copywriting
+Forsbergs, Stockholm, 2007-2009
+- Concentrated on digital marketing strategies, brand development, and leadership in tech-driven businesses.
